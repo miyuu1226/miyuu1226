@@ -1,0 +1,48 @@
+<head>
+    <script language="JavaScript">
+        <!--
+        function calc(ch) {
+        if (ch == "=") {
+        document.form1.text1.value =
+        eval(document.form1.text1.value);
+        }
+        else if (ch == "C") {
+        document.form1.text1.value = "";
+        }
+        else {
+        document.form1.text1.value += ch;
+        }
+        }
+        // -->
+        </script>
+</head>
+<body>
+    <form name="form1" action=""><input type="text" name="text1" size="25"><br>
+    <table border="0" cellpadding="1" cellspacing="0">
+    <tr>
+    <td align="center"><input type="button" value="0" onclick="calc('0')"></td>
+    <td><input type="button" value="1" onclick="calc('1')"></td>
+    <td><input type="button" value="2" onclick="calc('2')"></td>
+    <td><input type="button" value="3" onclick="calc('3')"></td>
+    <td><input type="button" value="4" onclick="calc('4')"></td>
+    <td><input type="button" value="5" onclick="calc('5')"></td>
+    <td><input type="button" value="6" onclick="calc('6')"></td>
+    <td><input type="button" value="7" onclick="calc('7')"></td>
+    <td><input type="button" value="8" onclick="calc('8')"></td>
+    <td><input type="button" value="9" onclick="calc('9')"></td>
+    </tr>
+    <tr>
+    <td><input type="button" value="C" onclick="calc('C')"></td>
+    <td><input type="button" value="=" onclick="calc('=')"></td>
+    <td><input type="button" value="+" onclick="calc('+')"></td>
+    <td><input type="button" value="-" onclick="calc('-')"></td>
+    <td><input type="button" value="/" onclick="calc('/')"></td>
+    <td><input type="button" value="*" onclick="calc('*')"></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    </tr>
+    </table>
+    </form>
+</body>
